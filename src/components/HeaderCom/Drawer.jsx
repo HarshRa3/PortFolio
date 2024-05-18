@@ -41,8 +41,9 @@ const Drawer = () => {
       <SwipeableDrawer
         sx={{
           "& .css-1nvnyqx-MuiPaper-root-MuiDrawer-paper": {
-            background: "rgb(0 0 0 / 83%)",
+            background: "rgb(0 0 0 / 83%) !important",
           },
+          
         }}
         anchor="top"
         open={top}
