@@ -5,6 +5,10 @@ import { SkillStaticData, experienceData } from "../../staticData/staticData";
 import ExperienceCard from "../../components/AboutPageCom/ExperienceCard";
 
 const About = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
   return (
     <Stack spacing={2}>
       <Card sx={{ color: "white", bgcolor: "#8080808a", p: "10px" }}>

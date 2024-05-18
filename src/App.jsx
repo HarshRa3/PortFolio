@@ -5,6 +5,10 @@ import { Outlet } from "react-router-dom";
 // import BackGImg from "./assets/images/BackgroundImg.jpg";
 import Footer from "./components/Footer/Footer";
 const App = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
   return (
     <
       // sx={{

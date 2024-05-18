@@ -2,6 +2,10 @@ import { Box, Stack, Typography } from "@mui/material";
 import ContactCardCom from "../../components/ContactCom/ContactCardCom";
 
 const ContactUs = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
   return (
     <Stack
       spacing={2}

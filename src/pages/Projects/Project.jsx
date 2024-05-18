@@ -4,6 +4,10 @@ import { ProjectsData } from "../../staticData/staticData"
 // import ProjectCard from "../../components/ProjectsPageCom/ProjectCard"
 
 const Project = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
   return (
     <Stack spacing={2} sx={{color:"white",bgcolor:"#8080808a",p:'10px',borderRadius:'5px'}}>
           <Typography

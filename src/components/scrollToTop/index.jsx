@@ -22,14 +22,12 @@ const ScrollToTop = () => {
   };
 
   useEffect(() => {
-    // Add event listener when the component mounts
     window.addEventListener("scroll", handleScroll);
 
-    // Remove event listener when the component unmounts
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []); // Empty dependency array ensures the effect runs only once after initial render
+  }, []);
 
   return (
     <>
@@ -45,7 +43,7 @@ const ScrollToTop = () => {
               color: "white",
               fontSize: { xs: "30px", md: "30px" },
               width: { xs: "30px", md: "40px" },
-              backgroundColor: "black",
+              backgroundColor: "#8000808",
               height: { xs: "30px", md: "40px" },
               borderRadius: "50%",
               cursor: "pointer",
