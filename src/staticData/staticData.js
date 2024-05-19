@@ -96,7 +96,7 @@ export const experienceData=[
     company:'Excellence Technology Pvt. Ltd.',
     role:'JR. React JS Developer',
     experienceTime:'(Nov-2023 - May-2024)',
-    desc:'Excellence Technology Pvt. Ltd. is a technology company that specializes in web development services, particularly on platforms like Upwork. With a strong focus on front-end technologies, their expertise lies in React.js, Next.js, Tailwind CSS, Material-UI (MUI), and Bootstrap. Over the course of 6 months, you gained valuable experience in developing web applications using these frameworks and libraries. Your role involved contributing to the design and development of client projects, ensuring high-quality and efficient solutions to meet their needs.'
+    desc:'Excellence Technology Pvt. Ltd. is a versatile technology company that delves into various technologies, including Python, React.js, Node.js, Vue.js, Next.js, Ruby on Rails (ROR), Angular, and more. During my tenure at Excellence Technology, I accumulated 6 months of experience primarily focused on React.js, Next.js, Tailwind CSS, Material-UI (MUI), and Bootstrap. As a frontend developer in this company, I contributed to the design and development of client projects, ensuring the delivery of high-quality and efficient solutions tailored to their requirements. My responsibilities also extended to collaborating with design teams to create visually appealing user interfaces that enhance user experience and engagement. Additionally, I leveraged Chart.js to visualize data effectively, further enriching the design and functionality of our web applications.'
   },
 
 
